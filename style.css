@@ -1,0 +1,493 @@
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+  /* Membuat track tidak terlihat */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.split-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+  max-width: 900px;
+}
+
+.text-content {
+  flex: 1;
+  position: relative;
+  margin-right: auto;
+  text-align: left;
+}
+
+.photo-container {
+  flex-shrink: 0;
+  width: 250px;
+  height: 250px;
+}
+
+.photo-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 1px solid rgb(255, 255, 255);
+  box-shadow: 0 5px 10px rgba(0, 41, 226, 0.2);
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+@media (max-width: 768px) {
+  .split-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .photo-container {
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+  }
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background-color: #ffffff;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  padding: 1rem;
+  text-align: left;
+  border-bottom: #0800a6 solid 1px;
+  border-top: #0800a6 solid 1px;
+}
+
+nav a {
+  color: rgb(0, 0, 0);
+  margin: 0 15px;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  padding-left: 20px;
+  padding-bottom: 5px;
+}
+
+nav a.active-link {
+  color: #000dff;
+}
+
+main section {
+  display: none;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 7rem;
+  box-sizing: border-box;
+}
+
+main section.active {
+  display: flex;
+  animation: fadeIn 0.5s ease-in-out;
+  -webkit-animation: fadeIn 0.5s ease-in-out;
+}
+
+main section {
+  display: none;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+    -webkit-transform: translateY(10px);
+    -moz-transform: translateY(10px);
+    -ms-transform: translateY(10px);
+    -o-transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+  }
+}
+
+td strong {
+  font-size: 22px;
+}
+
+h3 {
+  font-size: 22px;
+}
+
+h1,
+h2 {
+  color: #000000;
+  border-bottom: 1px solid #0800a6;
+  padding-bottom: 10px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.skills-title {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.skills-grid,
+.projek-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skill-item {
+  background-color: #0800a6;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.skill-item i {
+  font-size: 2rem;
+}
+
+/* === Gaya Sederhana untuk Seksi Projek === */
+.project-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.project-card {
+  background-color: #ffffff52;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 26, 102, 0.1);
+  overflow: hidden;
+  width: 300px;
+  transition: transform 0.2s ease;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+  -webkit-transform: translateY(-10px);
+  -moz-transform: translateY(-10px);
+  -ms-transform: translateY(-10px);
+  -o-transform: translateY(-10px);
+}
+
+div h3 {
+  text-align: center;
+}
+
+/* === Kontainer Utama Seksi Kontak === */
+.contact-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 2rem;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.contact-container {
+  display: flex;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  max-width: 1000px;
+  width: 100%;
+}
+
+.contact-info {
+  background-color: #0800a6;
+  color: #ffffff;
+  padding: 3rem;
+  flex-basis: 40%;
+}
+
+.contact-info h2 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.contact-info p {
+  color: #bdc3c7;
+  line-height: 1.6;
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+
+.info-item i {
+  font-size: 1.2rem;
+  width: 30px;
+}
+
+.contact-form {
+  padding: 3rem;
+  flex-basis: 60%;
+}
+
+.contact-form h2 {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+  font-family: inherit;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: #3498db;
+}
+
+.contact-form button {
+  background-color: #3498db;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #2980b9;
+}
+
+.project-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  display: block;
+}
+
+.card-content {
+  padding: 1rem;
+}
+
+.card-content h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.card-content p {
+  font-size: 0.9rem;
+  color: #000000;
+  margin-bottom: 1rem;
+}
+
+.card-content a {
+  color: #3498db;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* === Daftar Riwayat Pendidikan === */
+.riwayat {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+  max-width: 800px;
+  margin-top: 2rem;
+}
+
+.riwayat li {
+  display: flex;
+  gap: 2rem;
+  padding: 1.5rem 0;
+  border-bottom: 1px solid #ffffff;
+}
+
+.riwayat li:last-child {
+  border-bottom: none;
+}
+
+.riwayat .tahun {
+  flex-basis: 150px;
+  flex-shrink: 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.riwayat .instansi h3 {
+  margin: 0 0 5px 0;
+  font-size: 1.2rem;
+  color: #2c3e50;
+}
+
+.riwayat .instansi p {
+  margin: 0;
+  color: #7f8c8d;
+}
+
+.skill-item:hover {
+  transform: translateY(-5px);
+  -webkit-transform: translateY(-5px);
+  -moz-transform: translateY(-5px);
+  -ms-transform: translateY(-5px);
+  -o-transform: translateY(-5px);
+}
+
+.riwayat :hover {
+  transform: translateY(-10px);
+  -webkit-transform: translateY(-10px);
+  -moz-transform: translateY(-10px);
+  -ms-transform: translateY(-10px);
+  -o-transform: translateY(-10px);
+}
+
+@media only screen and (min-width: 768px) {
+  header {
+    text-align: left; 
+  }
+
+  nav a {
+    margin: 0 15px;
+    font-size: 20px;
+  }
+
+  main section {
+    padding: 7rem 2rem;
+  }
+
+  .split-container {
+    flex-direction: row; 
+    text-align: left;
+  }
+
+  .photo-container {
+    width: 200px; 
+    height: 200px;
+  }
+
+  .project-grid {
+    flex-direction: row; 
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .project-card {
+    width: calc(50% - 1rem); 
+    max-width: 350px;
+  }
+  
+  .riwayat li {
+    flex-direction: row; 
+    text-align: left;
+    gap: 2rem;
+  }
+
+  .contact-container {
+    flex-direction: row; 
+    max-width: 800px;
+  }
+
+  .contact-info, .contact-form {
+    padding: 3rem;
+  }
+}
+
+
+@media only screen and (min-width: 1024px) {
+  h1, h2 {
+    font-size: 2.5rem; 
+  }
+
+  .photo-container {
+    width: 250px; 
+    height: 250px;
+  }
+
+  .project-grid {
+    gap: 2rem;
+  }
+
+  .project-card {
+    width: calc(33.33% - 1.5rem); 
+    max-width: 350px;
+  }
+
+  .riwayat, .split-container {
+    max-width: 900px;
+  }
+
+  .contact-container {
+    max-width: 1000px; 
+  }
+}

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="id">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Landing Page</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <a href="#home">Home</a>
+                <a href="#riwayat-pendidikan">Pendidikan</a>
+                <a href="#projek">Project</a>
+                <a href="#kontak">Contact</a>
+            </nav>
+        </header>
+
+        <main>
+            <section id="home">
+                <div class="split-container">
+                    <div class="text-content">
+                        <h1>Halo, Nama Saya <span>Fahraj Ananta Aulia Arkan</span></h1>
+                        <p>Seorang mahasiswa D3 Teknik Informatika dengan minat dalam pengembangan Aplikasi dan desain
+                            UI/UX.</p>
+                        <p>Saya selalu antusias untuk menerapkan ilmu yang saya pelajari ke dalam proyek-proyek nyata.
+                        </p>
+                        <p>Contact me at<strong> fahrajarkan@gmail.com</strong></p>
+
+                        <h3 class="skills-title">Keahlian Saya:</h3>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <i class="fa-brands fa-php"></i>
+                                <span>PHP</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fa-brands fa-laravel"></i>
+                                <span>Laravel</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fa-solid fa-database"></i>
+                                <span>MySQL</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fa-solid fa-sitemap"></i>
+                                <span>System Analyst</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="photo-container">
+                        <img src="aset/image/Profile.jpg" alt="Foto Profil Fahraj">
+                    </div>
+                </div>
+            </section>
+
+            <section id="riwayat-pendidikan">
+                <h2>Riwayat Pendidikan</h2>
+                <ul class="riwayat">
+                    <li>
+                        <div class="tahun">2024 - Sekarang</div>
+                        <div class="instansi">
+                            <h3>Politeknik Negeri Bandung</h3>
+                            <p>D3 Teknik Informatika</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="tahun">2021 - 2024</div>
+                        <div class="instansi">
+                            <h3>SMKS Mahaputra Cerdas Utama</h3>
+                            <p>Jurusan Rekayasa Perangkat Lunak</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="tahun">2018 - 2021</div>
+                        <div class="instansi">
+                            <h3>MTs Persis Katapang</h3>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="tahun">2012 - 2018</div>
+                        <div class="instansi">
+                            <h3>SDN Sekepeuris 01</h3>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+
+
+            <section id="projek">
+                <h2>Projek Terbaru Saya</h2>
+                <div class="project-grid">
+                    <div class="project-card">
+                        <img src="aset/image/projek-1.png" alt="Landing Page Sederhana">
+                        <div class="card-content">
+                            <h3>Guess The Animal</h3>
+                            <p>Game tentang menbuat program menebak nama hewan yang user inputkan.</p>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img src="aset/image/projek-2.png" alt="Crossing Road">
+                        <div class="card-content">
+                            <h3>Crossing Road</h3>
+                            <p>Game sederhana berbasis bahasa C tentang ayam yang menyebrang jalan.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="kontak">
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <h2>Contact</h2>
+                        <p>Ada pertanyaan atau ingin berkolaborasi? Saya senang mendengar dari Anda. Hubungi saya
+                            melalui detail di bawah ini.</p>
+                        <div class="info-item">
+                            <span>fahrajarkan@gmail.com</span>
+                        </div>
+                        <div class="info-item">
+                            <span>+62 878 8761 7615</span>
+                        </div>
+                        <div class="info-item">
+                            <span><a href="https://github.com/ananta-cloud">GitHub</a></span>
+                        </div>
+                        <div class="info-item">
+                            <span>Katapang, Jawa Barat, Indonesia</span>
+                        </div>
+                    </div>
+
+                    <div class="contact-form">
+                        <h2>Kirim Pesan</h2>
+                        <form action="#">
+                            <div class="form-group">
+                                <label for="name">Nama</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Pesan</label>
+                                <textarea id="message" name="message" rows="5" required></textarea>
+                            </div>
+                            <button type="submit">Kirim</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <script src="app.js"></script>
+    </body>
+
+</html>
