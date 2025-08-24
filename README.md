@@ -1,6 +1,6 @@
 # **Landing Page Portofolio - Fahraj Ananta Aulia Arkan**
 
-Ini adalah repositori untuk proyek landing page portofolio pribadi saya. Halaman ini dirancang untuk menampilkan profil, riwayat pendidikan, proyek-projek yang pernah saya kerjakan, serta informasi kontak dalam satu halaman yang responsif dan mudah dinavigasi.
+Ini adalah repositori untuk tugas week 1 proyek 3: landing page portofolio pribadi saya. Halaman ini dirancang untuk menampilkan profil, riwayat pendidikan, proyek-projek yang pernah saya kerjakan, serta informasi kontak dalam satu halaman yang responsif dan mudah dinavigasi.
 
 ## **Penjelasan Singkat Proyek**
 
