@@ -1,7 +1,3 @@
-Tentu, ini draf file `README.md` yang bisa Anda gunakan untuk proyek GitHub Anda.
-
------
-
 # **Landing Page Portofolio - Fahraj Ananta Aulia Arkan**
 
 Ini adalah repositori untuk proyek landing page portofolio pribadi saya. Halaman ini dirancang untuk menampilkan profil, riwayat pendidikan, proyek-projek yang pernah saya kerjakan, serta informasi kontak dalam satu halaman yang responsif dan mudah dinavigasi.
@@ -21,7 +17,6 @@ Proyek ini merupakan sebuah website statis yang berfungsi sebagai CV online. Tuj
     4.  **Contact**: Informasi kontak dan formulir untuk mengirim pesan.
   * **Animasi Sederhana**: Efek *fade-in* saat menampilkan setiap bagian untuk pengalaman pengguna yang lebih baik.
 
------
 
 ## **Teknologi yang Digunakan**
 
