@@ -23,7 +23,7 @@ Proyek ini merupakan sebuah website statis yang berfungsi sebagai CV online. Tuj
 Proyek ini dibangun menggunakan teknologi web standar tanpa *framework* front-end yang kompleks.
 
   * **HTML5**: Untuk struktur dan konten halaman.
-  * **CSS3**: Untuk styling, layout (Flexbox), dan desain responsif.
+  * **CSS**: Untuk styling, layout (Flexbox), dan desain responsif.
   * **JavaScript**: Untuk fungsionalitas interaktif seperti navigasi antar bagian dan efek visual sederhana.
   * **Font Awesome**: Untuk ikon-ikon yang digunakan di seluruh halaman.
 
@@ -43,4 +43,4 @@ Saya tidak menggunakan *framework* CSS seperti Bootstrap, namun saya mengintegra
 
 ### **2. Inspirasi dari W3Schools**
 
-Beberapa implementasi kode, terutama dalam penggunaan **CSS Flexbox** untuk membuat layout dua kolom (seperti pada bagian kontak) dan desain kartu proyek, terinspirasi dari contoh dan tutorial yang tersedia di **W3Schools**. Contoh-contoh tersebut saya modifikasi dan sesuaikan dengan kebutuhan desain proyek ini.
+Beberapa implementasi kode, terutama dalam penggunaan **CSS Flexbox** untuk membuat layout dua kolom (seperti pada bagian kontak) dan desain kartu proyek serta penggunaan @media, terinspirasi dari contoh dan tutorial yang tersedia di **W3Schools**. Contoh-contoh tersebut saya modifikasi dan sesuaikan dengan kebutuhan desain proyek ini.
