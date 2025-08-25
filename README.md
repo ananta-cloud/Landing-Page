@@ -2,6 +2,8 @@
 
 Ini adalah repositori untuk tugas week 1 proyek 3: landing page portofolio pribadi saya. Halaman ini dirancang untuk menampilkan profil, riwayat pendidikan, proyek-projek yang pernah saya kerjakan, serta informasi kontak dalam satu halaman yang responsif dan mudah dinavigasi.
 
+link deploy: https://cosmic-piroshki-b73bfc.netlify.app/
+
 ## **Penjelasan Singkat Proyek**
 
 Proyek ini merupakan sebuah website statis yang berfungsi sebagai CV online. Tujuannya adalah untuk memberikan gambaran umum tentang latar belakang, kemampuan, dan pengalaman saya kepada pengunjung atau calon perekrut.
